@@ -85,9 +85,10 @@ img {
 
   }
   #steps .row>.left,
-  #steps .row>.central,
-  #steps .row>.right {
+  #steps .row>.left,
+  #steps .row>.left {
     width: 50%;
+    float:left;
   }
   #why .row>.first,
   #why .row>.second,
