@@ -73,6 +73,28 @@ img {
   clear: both;
 }
 /* MEDIA QUERY */
+@media screen and (max-width:768px){
+  .row{
+    width: 100%;
+  }
+  #lezioni .row>.left,
+  #lezioni .row>.right {
+    width: 50%;
+    margin: auto;
+
+
+  }
+  #steps .row>.left,
+  #steps .row>.central,
+  #steps .row>.right {
+    width: 50%;
+  }
+  #why .row>.first,
+  #why .row>.second,
+  #why .row>.third {
+    width: 50%;
+    float:left;
+}
 @media screen and (max-width:420px){
   .row{
     width: 100%;
